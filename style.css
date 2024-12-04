@@ -1,0 +1,134 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.5rem;
+    
+}
+
+.navbar-text{
+    font-size: 2rem;
+    text-indent: .1rem;
+    margin-right: 2rem;
+   
+}
+
+.image-1, .image-2, .image-3 {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-1 {
+    background-image: url(./images/image1.webp);
+}
+
+.image-2 {
+    background-image: url(./images/image2.webp);
+}
+
+.image-3 {
+    background-image: url(./images/image3.webp);
+}
+
+.content1{
+    margin-right: 480px;
+}
+
+ .content2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 100px;
+    color: white;
+    max-width: 80%;
+}
+
+
+
+.content1{
+button {
+    background-color: transparent;
+    color: white; 
+    border: 2px solid white; 
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white;
+}
+
+}
+}
+
+.content2{ 
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white; 
+}
+}
+
+footer {
+    background-color: #3e3e3e;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .footer-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .footer-text {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+      text-align: left;
+    }
+  
+    .footer-text {
+      text-align: center;
+      grid-column: span 2;
+    }
+  }
+
+
